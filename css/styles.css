@@ -50,7 +50,7 @@ header {
   color: #757575;
 }
 
-nav {
+.nav-menu {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -93,4 +93,16 @@ nav {
   /* identical to box height, or 188% */
 
   color: #ffffff;
+}
+
+.studio-nav:hover {
+  color: #2196f3;
+}
+
+.portfolio-nav:hover {
+  color: #2196f3;
+}
+
+.contacts-nav:hover {
+  color: #2196f3;
 }
