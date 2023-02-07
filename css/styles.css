@@ -1,108 +1,160 @@
-header a {
-  text-decoration: none;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
+/* HEADER STYLES */
 
-  letter-spacing: 0.03em;
-  color: black;
+header a {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: black;
 }
 
 header {
-  background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 
 .logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
 
-  letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-  color: #2196f3;
+    color: #2196f3;
 }
 
 .email {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
-.phonenr {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+.phone-nr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-  color: #757575;
+    color: #757575;
 }
 
 .nav-menu {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-  color: #212121;
-}
-
-.request-section {
-  background-color: #2f303a;
-}
-
-.request-section-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-
-.request-button {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-
-  color: #ffffff;
+    color: #212121;
 }
 
 .studio-nav:hover {
-  color: #2196f3;
+    color: #2196f3;
 }
 
 .portfolio-nav:hover {
-  color: #2196f3;
+    color: #2196f3;
 }
 
 .contacts-nav:hover {
-  color: #2196f3;
+    color: #2196f3;
+}
+
+.email:hover {
+    color: #2196f3;
+}
+
+.phone-nr:hover {
+    color: #2196f3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* REQUEST SECTION STYLES */
+
+.request-section {
+    background-color: #2f303a;
+}
+
+.request-section-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.request-button {
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    color: #ffffff;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: #2f303a;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #ffffff;
+}
+
+.phone-nr-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.email-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer > a {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: #ffffff;
 }
