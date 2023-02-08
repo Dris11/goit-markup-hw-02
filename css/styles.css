@@ -1,6 +1,16 @@
 /* HEADER STYLES */
 
-header a {
+body {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+    line-height: 16px;
+}
+
+:root {
+    --brand-color: #2196f3;
+}
+
+.logo-1 {
     text-decoration: none;
     font-family: "Raleway";
     font-style: normal;
@@ -17,7 +27,7 @@ header {
     background-color: whitesmoke;
 }
 
-.logo {
+.logo-2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -27,10 +37,12 @@ header {
 
     letter-spacing: 0.03em;
 
-    color: #2196f3;
+    color: var(--brand-color);
 }
 
 .email {
+    color: #212121;
+    text-decoration: none;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -40,6 +52,7 @@ header {
 }
 
 .phone-nr {
+    text-decoration: none;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -50,7 +63,30 @@ header {
     color: #757575;
 }
 
-.nav-menu {
+.studio-nav {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+.portfolio-nav {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+.contacts-nav {
+    text-decoration: none;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -61,24 +97,29 @@ header {
     color: #212121;
 }
 
-.studio-nav:hover {
-    color: #2196f3;
+.studio-nav:hover,
+.studio-nav:focus {
+    color: var(--brand-color);
 }
 
-.portfolio-nav:hover {
-    color: #2196f3;
+.portfolio-nav:hover,
+.portfolio-nav:focus {
+    color: var(--brand-color);
 }
 
-.contacts-nav:hover {
-    color: #2196f3;
+.contacts-nav:hover,
+.contacts-nav:focus {
+    color: var(--brand-color);
 }
 
-.email:hover {
-    color: #2196f3;
+.email:hover,
+.email:focus {
+    color: var(--brand-color);
 }
 
-.phone-nr:hover {
-    color: #2196f3;
+.phone-nr:hover,
+.phone-nr:focus {
+    color: var(--brand-color);
 }
 
 ul {
@@ -107,9 +148,10 @@ ul {
 }
 
 .request-button {
-    background: #2196f3;
+    background: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 
     font-family: "Roboto";
     font-style: normal;
@@ -119,6 +161,31 @@ ul {
     /* identical to box height, or 188% */
 
     color: #ffffff;
+}
+
+.strenghts-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.strenghts-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
 }
 
 /* FOOTER STYLES */
