@@ -10,7 +10,7 @@ body {
     --brand-color: #2196f3;
 }
 
-.logo-1 {
+.header-logo-1 {
     text-decoration: none;
     font-family: "Raleway";
     font-style: normal;
@@ -24,10 +24,11 @@ body {
 }
 
 header {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .logo-2 {
+    text-decoration: none;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -41,7 +42,7 @@ header {
 }
 
 .email {
-    color: #212121;
+    color: #757575;
     text-decoration: none;
     font-family: "Roboto";
     font-style: normal;
@@ -163,6 +164,8 @@ ul {
     color: #ffffff;
 }
 
+/* STRENGHTS SECTION */
+
 .strenghts-title {
     font-family: "Roboto";
     font-style: normal;
@@ -183,6 +186,62 @@ ul {
     line-height: 24px;
     /* or 171% */
 
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/* WHAT WE DO SECTION */
+
+.what-we-do-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+/* OUR TEAM SECTION */
+
+.team-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.team-name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.team-role {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
     letter-spacing: 0.03em;
 
     color: #757575;
@@ -214,7 +273,7 @@ footer a {
     color: rgba(255, 255, 255, 0.6);
 }
 
-footer > a {
+.footer-logo-1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -224,4 +283,55 @@ footer > a {
 
     letter-spacing: 0.03em;
     color: #ffffff;
+}
+
+/* PORTFOLIO FILTER SECTION */
+
+.p-button {
+    background-color: #f5f4fa;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.p-button:hover,
+.p-button:focus {
+    background-color: var(--brand-color);
+    color: #ffffff;
+}
+
+/* PORTFOLIO ELEMENTS SECTION */
+
+.p-name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+.p-type {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
 }
